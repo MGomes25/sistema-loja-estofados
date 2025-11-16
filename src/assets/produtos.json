@@ -1,0 +1,35 @@
+[
+  {
+    "id": "prod001",
+    "nome": "Sofá 3 Lugares Confort",
+    "tipo": "sofá",
+    "descricao": "Sofá espaçoso e confortável com acabamento em tecido Suede.",
+    "preco": 2500.00,
+    "estoque": 15,
+    "imagemUrl": "assets/imagens/sofa-confort.jpg",
+    "cor": "Cinza",
+    "dimensoes": { "largura": "220cm", "altura": "90cm", "profundidade": "100cm" }
+  },
+  {
+    "id": "prod002",
+    "nome": "Poltrona Decorativa Vintage",
+    "tipo": "poltrona",
+    "descricao": "Poltrona de design vintage com pés de madeira maciça.",
+    "preco": 950.00,
+    "estoque": 8,
+    "imagemUrl": "assets/imagens/poltrona-vintage.jpg",
+    "cor": "Verde Musgo",
+    "dimensoes": { "largura": "80cm", "altura": "85cm", "profundidade": "75cm" }
+  },
+  {
+    "id": "prod003",
+    "nome": "Cadeira de Jantar Estofada",
+    "tipo": "cadeira",
+    "descricao": "Cadeira elegante para sala de jantar, estofada em linho.",
+    "preco": 350.00,
+    "estoque": 50,
+    "imagemUrl": "assets/imagens/cadeira-jantar.jpg",
+    "cor": "Bege",
+    "dimensoes": { "largura": "50cm", "altura": "95cm", "profundidade": "55cm" }
+  }
+]

@@ -1,0 +1,54 @@
+:host {
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  background-color: #f4f7f6;
+  color: #333;
+}
+
+header {
+  background-color: #3f51b5; /* Cor primária */
+  color: white;
+  padding: 15px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+  padding: 5px 0;
+  transition: color 0.3s ease;
+}
+
+nav a:hover,
+nav a.active {
+  color: #c5cae9; /* Uma cor mais clara para hover/ativo */
+}
+
+main {
+  padding: 20px;
+  min-height: calc(100vh - 120px); /* Ajuste conforme altura do header e footer */
+}
+
+footer {
+  background-color: #eceff1; /* Cor secundária */
+  color: #555;
+  text-align: center;
+  padding: 15px 20px;
+  border-top: 1px solid #cfd8dc;
+}

@@ -1,0 +1,12 @@
+<div class="produtos-page">
+  <h1>Página de Produtos</h1>
+  <app-listagem
+    [data]="produtos"
+    [columns]="produtoColumns"
+    title="Listagem de Estofados"
+    [showActions]="true"
+    (itemSelected)="onProdutoSelected($event)"
+    (itemDeleted)="onProdutoDeleted($event)"
+    (itemAdded)="onAddProduto()"
+  ></app-listagem>
+</div>
