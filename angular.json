@@ -12,7 +12,7 @@
       "architect": {
         "build": {
           "builder": "@angular/build:application",
-          "options": {
+          "options": { 
             "browser": "src/main.ts",
             "polyfills": [
               "zone.js"
@@ -25,7 +25,8 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+                "node_modules/bootstrap/dist/css/bootstrap.min.css",
+  "src/styles.css"
             ]
           },
           "configurations": {
@@ -88,5 +89,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
